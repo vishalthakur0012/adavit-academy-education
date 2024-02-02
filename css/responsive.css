@@ -1,0 +1,346 @@
+@media only screen and (max-width: 767px) {
+    .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: 0.255em;
+        vertical-align: 0.255em;
+        position: absolute;
+        content: "";
+        border-top: 0.3em solid;
+        border-right: 0.3em solid transparent;
+        border-bottom: 0;
+        border-left: 0.3em solid transparent;
+        font-size: 25px;
+        right: 25px;
+        top: 20px;
+    }
+
+    a.btn.dropdown-toggle {
+        font-size: 22px;
+        font-weight: 500;
+        color: #000;
+        text-align: left;
+        border: none !important;
+    }
+
+    li.nav-item.desk {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .tf__banner_text h1 {
+        font-size: 35px;
+        margin-bottom: 12px;
+    }
+
+    .offcanvas-body {
+        display: block;
+    }
+
+    .get-in-touch.mt-5 {
+        display: none;
+    }
+
+    a.nav-link {
+        display: block;
+        padding: 5px 15px;
+    }
+
+
+    .offcanvas-body .navbar-nav .nav-item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    li.nav-item {
+        padding: 0 0px;
+    }
+
+    a.nav-link {
+        font-size: 22px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    .tf__banner_img .img {
+        width: 300px;
+        height: auto;
+        position: relative;
+        margin-top: -55px;
+        left: 17px;
+    }
+
+    section.banner-img {
+        height: auto;
+    }
+
+    .tf__banner_img {
+        justify-content: end;
+    }
+
+    .tf__banner_text {
+        margin-top: 15px;
+    }
+
+    .tf__banner_text h5 {
+        margin-bottom: 8px;
+    }
+
+    .tf__banner_text a {
+        margin-top: 12px;
+    }
+
+    .tf__banner_img .img::after {
+        top: 90px;
+        left: -60px;
+    }
+
+    .home-about-us .about-left-content .regarding-us {
+        flex-direction: column;
+    }
+
+    .home-about-us .about-left-content .regarding-us .qulifaction-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .home-about-us .about-right-content {
+        margin-left: 0;
+    }
+
+    h2.about-title {
+        font-size: 30px;
+    }
+
+    .home-about-us {
+        padding-top: 50px;
+    }
+
+    .home-about-us .about-left-content {
+        margin-right: 0;
+    }
+
+    .home-about-us .about-left-content .regarding-us .qulifaction-content {
+        width: 100%;
+        padding: 10px;
+        border-width: 1px 0 0 0;
+    }
+
+    .home-course-section {
+        padding: 50px 0 50px;
+    }
+
+    .home-course-section .section-title {
+        font-size: 30px;
+    }
+
+    .tf__section_heading h2 {
+        font-size: 28px;
+    }
+
+    .tf__student_choose_text {
+        margin-bottom: 50px;
+    }
+
+    .tf__student_choose_img .img_1 {
+        width: 250px;
+        height: 300px;
+    }
+
+    .tf__student_choose_img .img_2 {
+        width: 140px;
+        height: 150px;
+        bottom: -20px;
+        left: auto;
+    }
+
+    .tf__student_choose_img .img_2::after {
+        display: none;
+    }
+
+
+    .tf__footer_bottom {
+        justify-content: center;
+    }
+
+    .tf__footer_content h3 {
+        margin-bottom: 25px;
+    }
+
+    .tf__footer_content {
+        margin-bottom: 30px;
+    }
+
+    section.testimonials h2.section-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .slick-next:before,
+    .slick-prev:before {
+        display: none;
+    }
+
+    ul.dropdown-menu {
+        width: 100%;
+        height: auto;
+    }
+
+    ul.dropdown-menu li {
+        padding: 10px 0;
+    }
+
+    ul.dropdown-menu li a {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .tf__courses_details_img {
+        height: auto !important;
+    }
+    .tf__courses_details_header ul {
+        flex-direction: column;
+    }
+    .tf__courses_details_header ul li {
+        margin-bottom: 10px;
+    }
+
+    .tf__course_instructor_text {
+        margin-top: 25px;
+    }
+
+    .tf__contact_page h2 {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+
+    section.tf__student_choose {
+        background-position: left !important;
+    }
+    .tf__breadcrumb_text h1 {
+        font-size: 45px;
+    }
+
+    .home-progress-section .counter-inner .counter-item-wrap .counter-item {
+        padding: 36px 15px;
+    }
+
+    .col-sm-2.col-sm-6.counter-item {
+        width: 50%;
+    }
+
+    .home-progress-section .counter-inner .counter-item-wrap .counter-item .counter-no {
+        font-size: 40px;
+    }
+
+    .popup-content {
+        width: 100%;
+    }
+
+    #close-icon {
+        cursor: pointer;
+        position: absolute;
+        right: 0px;
+        top: 5px;
+    }
+
+}
+
+@media only screen and (max-width:990px) and (min-width:768px) {
+
+    .tf__banner_text h1 {
+        font-size: 30px;
+    }
+    .tf__banner_img .img {
+        left: 10px;
+    }
+
+    .home-about-us .about-left-content {
+        margin-right: 0;
+    }
+
+    .home-about-us .about-right-content {
+        margin-left: 10px;
+    }
+
+    h2.about-title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .home-about-us .about-right-content .about-desc {
+        margin-bottom: 50px;
+    }
+
+    .home-about-us .about-left-content .skill-container .skill-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .home-about-us .about-left-content .figure-round-border img {
+        margin-bottom: 0;
+    }
+
+    .home-about-us {
+        padding-bottom: 50px;
+    }
+
+    .home-course-section {
+        padding: 50px 0 130px;
+    }
+
+    .tf__student_choose_img .img_2 {
+        left: 80px;
+    }
+    .offcanvas-body {
+        display: block;
+    }
+ 
+    .get-in-touch.mt-5 {
+        display: none;
+    }
+
+    .dropdown {
+        display: inline-block;
+    }
+
+    a.btn.dropdown-toggle {
+        font-size: 22px;
+        font-weight: 500;
+        color: #000;
+        text-align: left;
+        border: none !important;
+    }
+
+    li.nav-item {
+        padding: 0 0px;
+    }
+    a.nav-link {
+        display: block;
+        padding: 5px 15px;
+    }
+
+
+    .offcanvas-body .navbar-nav .nav-item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:1920px) and (min-width:1500px) {
+
+    .container {
+        max-width: 1450px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sm-2.col-sm-6.counter-item {
+        width: 25%;
+    }
+
+
+}
